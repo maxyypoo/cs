@@ -1,0 +1,51 @@
+//Programmer: Doga Akpinaroglu
+//Course: CS 111B - Java Programming
+//Homework: HW1
+//Objective: Using variables and input to determine a circles area, perimeter and radius;then, outputting the results.
+
+
+//Importing Scanner class and PI
+import java.util.*;
+
+
+//class to determine the area of a circle
+class Circle
+{
+public static void main (String ... args)
+{
+  //Variables
+  Scanner userRad = new Scanner(System.in);
+  int radius;
+  double pi = Math.PI;
+  
+  //User input for radius
+  System.out.print ("Enter Radius: ");
+  radius = userRad.nextInt();
+  
+  //Calculation of information, to be outputted
+  double perm = radius * 2 * Math.PI;
+  double area = radius * radius * Math.PI;
+  int diameter = radius * 2;
+  
+  //Output
+  System.out.println ("Radius you entered was: " + radius);
+  System.out.println ("Diameter is: " + diameter);
+  System.out.println ("Area is: " + area);
+  System.out.println ("Perimeter is: " + perm);
+}
+}
+
+// #### Example Output ####
+//Radius Chosen to be 1, so that area is pi (shows that the program works as intended)
+
+/* 
+    
+
+
+Enter Radius: 1
+Radius you entered was: 1
+Diameter is: 2
+Area is: 3.141592653589793
+Perimeter is: 6.283185307179586
+
+*/

@@ -1,0 +1,29 @@
+enter scores down below, use any negative numbers to exit.
+please enter the score: 5The sorted list contains5
+
+please enter the score: 1
+The sorted list contains
+1 5
+
+please enter the score: 12
+The sorted list contains
+1 5 12
+
+please enter the score: 3
+The sorted list contains
+1 3 5 12
+
+please enter the score: 85
+The sorted list contains
+1 3 5 12 85
+
+please enter the score: 2
+The sorted list contains
+1 2 3 5 12 85
+
+please enter the score: 3
+The sorted list contains
+1 2 3 3 5 12 85
+
+please enter the score: -5
+[dakpinar@hills SortedListHasA]$ 

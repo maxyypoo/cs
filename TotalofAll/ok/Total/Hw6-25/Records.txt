@@ -1,0 +1,6 @@
+Loan Amount:                            $   10000
+Monthly Interest Rate:                         5%
+Number Of Payments:                            23
+Monthly Payment:                        $ 1003.58
+Total Amount Paid:                      $ 23082.3
+Interest Paid:                          $ 1154.12
